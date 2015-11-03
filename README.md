@@ -1,4 +1,6 @@
 # csharp.encryption
+
+[![Join the chat at https://gitter.im/vinicius-stutz/csharp.encryption](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vinicius-stutz/csharp.encryption?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 DLL class libraries for creating and removing encryption in .Net applications
 
 [![Stack Share](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](http://stackshare.io/vinicius-stutz/vin-cius-stutz)
