@@ -10,17 +10,17 @@ This is a very simple script to use. Create an instance of the class CryptServic
 ```
 CryptService crip = new CryptService(CryptProvider.DES);
 crip.Key = "MY_KEY";
-return crip.Criptografar(text);
+return crip.Encrypt(text);
 ```
 
 ### Decrypt
 ```
 CryptService crip = new CryptService(CryptProvider.DES);
 crip.Key = "MY_KEY";
-return crip.Descriptografar(text);
+return crip.Decrypt(text);
 ```
 
-FYI: Namespaces, classes and methods are in Portuguese. Feel free to refactor and translate ;)
+FYI: The comments in the code are all in Portuguese. Feel free to translate ;)
 
 ## MIT License
 Read the LICENSE file included with the project.

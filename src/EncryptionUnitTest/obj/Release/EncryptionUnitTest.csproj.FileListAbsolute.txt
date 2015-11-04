@@ -1,0 +1,7 @@
+C:\Workspace\GitHub\csharp.encryption\src\EncryptionUnitTest\bin\Release\EncryptionUnitTest.dll
+C:\Workspace\GitHub\csharp.encryption\src\EncryptionUnitTest\bin\Release\EncryptionUnitTest.pdb
+C:\Workspace\GitHub\csharp.encryption\src\EncryptionUnitTest\bin\Release\Encryption.dll
+C:\Workspace\GitHub\csharp.encryption\src\EncryptionUnitTest\bin\Release\Encryption.pdb
+C:\Workspace\GitHub\csharp.encryption\src\EncryptionUnitTest\obj\Release\EncryptionUnitTest.csprojResolveAssemblyReference.cache
+C:\Workspace\GitHub\csharp.encryption\src\EncryptionUnitTest\obj\Release\EncryptionUnitTest.dll
+C:\Workspace\GitHub\csharp.encryption\src\EncryptionUnitTest\obj\Release\EncryptionUnitTest.pdb
