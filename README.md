@@ -1,5 +1,7 @@
 [![Stories in Ready](https://badge.waffle.io/vinicius-stutz/csharp.encryption.png?label=ready&title=Ready)](https://waffle.io/vinicius-stutz/csharp.encryption)
 # csharp.encryption
+
+[![Join the chat at https://gitter.im/vinicius-stutz/csharp.encryption](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vinicius-stutz/csharp.encryption?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 DLL class libraries for creating and removing encryption in .Net applications
 
 [![Build status](https://ci.appveyor.com/api/projects/status/36ss9151ntjrqy5h?svg=true)](https://ci.appveyor.com/project/vinicius-stutz/csharp-encryption)
