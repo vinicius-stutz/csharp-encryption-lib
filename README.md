@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/vinicius-stutz/csharp.encryption.png?label=ready&title=Ready)](https://waffle.io/vinicius-stutz/csharp.encryption)
 # csharp.encryption
 DLL class libraries for creating and removing encryption in .Net applications
 
