@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Encryption</name>
+    </assembly>
+    <members>
+        <member name="T:Encryption.CryptService">
+            <summary>
+            <para>DLL/Classe de criptgrafia.</para>
+            <para></para>
+            <para>Exemplo de como usar para criptografar:</para>
+            <para>CryptService crip = new CryptService(CryptProvider.DES);</para>
+            <para>crip.Key = "MY KEY HERE"; // Esta chave você mesmo é quem escolhe</para>
+            <para>return crip.Encrypt(yourString);</para>
+            <para></para>
+            <para>Exemplo de como usar para descriptografar:</para>
+            <para>CryptService crip = new CryptService(CryptProvider.DES);</para>
+            <para>crip.Key = "MY KEY HERE"; // Esta chave tem que ser a mesma do texto criptografado</para>
+            <para>return crip.Decrypt(yourString);</para>
+            </summary>
+        </member>
+        <member name="M:Encryption.CryptService.SetAlgorithm">
+            <summary>Inicialização do vetor do algoritmo simétrico</summary>
+        </member>
+        <member name="M:Encryption.CryptService.#ctor">
+            <summary>Contrutor padrão da classe, é setado um tipo de criptografia padrão (Rijndael).</summary>
+        </member>
+        <member name="M:Encryption.CryptService.#ctor(Encryption.CryptProvider)">
+            <summary>
+            Construtor com o tipo de criptografia a ser usada Você pode escolher o tipo pelo Enum chamado CryptProvider.
+            </summary>
+            <param name="cp">Tipo de criptografia.</param>
+        </member>
+        <member name="M:Encryption.CryptService.GetKey(System.String)">
+            <summary>Gera a chave de criptografia válida dentro do array.</summary>
+            <returns>Chave com array de bytes.</returns>
+        </member>
+        <member name="M:Encryption.CryptService.Encrypt(System.String)">
+            <summary>Encripta o dado solicitado.</summary>
+            <param name="val">String a ser criptografada.</param>
+            <returns>Texto criptografado.</returns>
+        </member>
+        <member name="M:Encryption.CryptService.Decrypt(System.String)">
+            <summary>Desencripta o dado solicitado.</summary>
+            <param name="val">Texto a ser descriptografado.</param>
+            <returns>Texto descriptografado.</returns>
+        </member>
+        <member name="P:Encryption.CryptService.Key">
+            <summary>Chave secreta para o algoritmo simétrico de criptografia.</summary>
+        </member>
+        <member name="T:Encryption.CryptProvider">
+            <summary>Enumerator com os tipos de classes para criptografia.</summary>
+        </member>
+        <member name="F:Encryption.CryptProvider.Rijndael">
+            <summary>Representa a classe base para implementações criptografia dos algoritmos simétricos Rijndael.</summary>
+        </member>
+        <member name="F:Encryption.CryptProvider.RC2">
+            <summary>Representa a classe base para implementações do algoritmo RC2.</summary>
+        </member>
+        <member name="F:Encryption.CryptProvider.DES">
+            <summary>Representa a classe base para criptografia de dados padrões (DES - Data Encryption Standard).</summary>
+        </member>
+        <member name="F:Encryption.CryptProvider.TripleDES">
+            <summary>Representa a classe base (TripleDES - Triple Data Encryption Standard).</summary>
+        </member>
+    </members>
+</doc>

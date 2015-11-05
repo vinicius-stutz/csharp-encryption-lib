@@ -1,5 +1,6 @@
+C:\Workspace\GitHub\csharp.encryption\src\Encryption\bin\Release\Encryption.XML
 C:\Workspace\GitHub\csharp.encryption\src\Encryption\bin\Release\Encryption.dll
 C:\Workspace\GitHub\csharp.encryption\src\Encryption\bin\Release\Encryption.pdb
+C:\Workspace\GitHub\csharp.encryption\src\Encryption\obj\Release\Encryption.csprojResolveAssemblyReference.cache
 C:\Workspace\GitHub\csharp.encryption\src\Encryption\obj\Release\Encryption.dll
 C:\Workspace\GitHub\csharp.encryption\src\Encryption\obj\Release\Encryption.pdb
-C:\Workspace\GitHub\csharp.encryption\src\Encryption\obj\Release\Encryption.csprojResolveAssemblyReference.cache
