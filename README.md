@@ -1,4 +1,5 @@
-# csharp.encryption
+# C\# Encryption DLL
+[Project page](http://vinicius-stutz.github.io/csharp.encryption)
 
 DLL class libraries for creating and removing encryption in .Net applications
 
