@@ -1,6 +1,4 @@
 # C\# Encryption DLL
-[Project page](http://vinicius-stutz.github.io/csharp.encryption)
-
 DLL class libraries for creating and removing encryption in .Net applications
 
 [![Build status](https://ci.appveyor.com/api/projects/status/36ss9151ntjrqy5h?svg=true)](https://ci.appveyor.com/project/vinicius-stutz/csharp-encryption)
