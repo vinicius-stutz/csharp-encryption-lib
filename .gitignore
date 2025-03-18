@@ -1,0 +1,55 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code settings
+.idea/
+.vscode/
+.vscode/settings.json
+
+# Package management
+node_modules/
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+PackageReferences/
+
+# Logs & caches
+*.log
+logs/
+.vs/
+.vsconfig
+.DS_Store
+Thumbs.db
+
+# Dotnet-specific
+*.pdb
+*.dll
+*.exe
+*.app
+*.so
+*.dylib
+*.psd1
+*.psm1
+*.pyc
+.nuget/
+*.pidb
+*.ilk
+*.cache
+*.wdb
+*.db
+*.ipch
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
