@@ -1,27 +1,17 @@
 ﻿<!--
-Filename: CryptexSharp.ConsoleApp.csproj
-Project: vinic
-Created Date: Tu Mar 2025
-Author: Vinícius Stutz
-Description: 
-
-Last Modified: Thu Mar 20 2025
-Modified By: Vinícius Stutz
-
-Copyright (c) 2025 vinici.us.com
+Copyright (c) 2025 vinici.us.com. All Rights Reserved.
+Licensed under the MIT license.
 -->
 
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../CryptexSharp.Application/CryptexSharp.Application.csproj" />
     <ProjectReference Include="../CryptexSharp.Domain/CryptexSharp.Domain.csproj" />
     <ProjectReference Include="../CryptexSharp.Service/CryptexSharp.Core.csproj" />
   </ItemGroup>

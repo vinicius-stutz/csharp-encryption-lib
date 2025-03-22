@@ -1,4 +1,17 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<!--
+Filename: CryptexSharp.Tests.csproj
+Project: vinic
+Created Date: Mo Mar 2025
+Author: Vinícius Stutz
+Description: 
+
+Last Modified: Thu Mar 20 2025
+Modified By: Vinícius Stutz
+
+Copyright (c) 2025 vinici.us.com
+-->
+
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
@@ -19,7 +32,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CryptexSharp\CryptexSharp.csproj" />
   </ItemGroup>
 
 </Project>
